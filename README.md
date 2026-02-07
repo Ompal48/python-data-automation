@@ -70,20 +70,15 @@ python-data-automation/
 
 ## 💻 Local Setup
 
-### 1️⃣ Clone Repository
 
-```bash
-git clone https://github.com/Ompal48/python-data-automation.git
-cd python-data-automation
-```
 
-### 2️⃣ Install Dependencies
+###  Install Dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run Application
+###  Run Application
 
 ```bash
 python app.py
