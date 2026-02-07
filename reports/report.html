@@ -1,0 +1,140 @@
+
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Cryptocurrency Market Report</title>
+        <style>
+            body {
+                font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+                margin: 0;
+                padding: 20px;
+                background-color: #f4f4f4;
+                color: #333;
+            }
+            .container {
+                max-width: 1200px;
+                margin: 0 auto;
+                background-color: white;
+                padding: 20px;
+                border-radius: 8px;
+                box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            }
+            h1 {
+                text-align: center;
+                color: #2c3e50;
+                margin-bottom: 30px;
+            }
+            h2 {
+                color: #34495e;
+                border-bottom: 2px solid #3498db;
+                padding-bottom: 10px;
+                margin-top: 40px;
+            }
+            .crypto-table {
+                width: 100%;
+                border-collapse: collapse;
+                margin: 20px 0;
+                font-size: 14px;
+            }
+            .crypto-table th, .crypto-table td {
+                border: 1px solid #ddd;
+                padding: 12px;
+                text-align: left;
+            }
+            .crypto-table th {
+                background-color: #3498db;
+                color: white;
+                font-weight: bold;
+            }
+            .crypto-table tr:nth-child(even) {
+                background-color: #f2f2f2;
+            }
+            .crypto-table tr:hover {
+                background-color: #e8f4fd;
+            }
+            img {
+                max-width: 100%;
+                height: auto;
+                margin: 20px 0;
+                border: 1px solid #ddd;
+                border-radius: 4px;
+            }
+            .chart-section {
+                margin-bottom: 40px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <h1>Cryptocurrency Market Report</h1>
+            <section>
+                <h2>Data Table</h2>
+                <table border="1" class="dataframe crypto-table">
+  <thead>
+    <tr style="text-align: right;">
+      <th>id</th>
+      <th>name</th>
+      <th>current_price</th>
+      <th>market_cap</th>
+      <th>price_change_percentage_24h</th>
+      <th>timestamp</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>bitcoin</td>
+      <td>Bitcoin</td>
+      <td>69408.000000</td>
+      <td>1.387178e+12</td>
+      <td>-1.57946</td>
+      <td>2026-02-08T02:00:05.079976</td>
+    </tr>
+    <tr>
+      <td>ethereum</td>
+      <td>Ethereum</td>
+      <td>2095.080000</td>
+      <td>2.528604e+11</td>
+      <td>2.15288</td>
+      <td>2026-02-08T02:00:05.079976</td>
+    </tr>
+    <tr>
+      <td>tether</td>
+      <td>Tether</td>
+      <td>0.999382</td>
+      <td>1.856013e+11</td>
+      <td>0.00855</td>
+      <td>2026-02-08T02:00:05.079976</td>
+    </tr>
+    <tr>
+      <td>binancecoin</td>
+      <td>BNB</td>
+      <td>651.250000</td>
+      <td>8.880464e+10</td>
+      <td>-1.57392</td>
+      <td>2026-02-08T02:00:05.079976</td>
+    </tr>
+    <tr>
+      <td>ripple</td>
+      <td>XRP</td>
+      <td>1.430000</td>
+      <td>8.718884e+10</td>
+      <td>-1.00567</td>
+      <td>2026-02-08T02:00:05.079976</td>
+    </tr>
+  </tbody>
+</table>
+            </section>
+            <section class="chart-section">
+                <h2>Price Chart</h2>
+                <img src="price_chart.png" alt="Current Price Chart">
+            </section>
+            <section class="chart-section">
+                <h2>Market Cap Chart</h2>
+                <img src="market_cap_chart.png" alt="Market Cap Chart">
+            </section>
+        </div>
+    </body>
+    </html>
+    

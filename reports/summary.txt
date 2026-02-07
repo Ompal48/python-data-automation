@@ -1,0 +1,16 @@
+
+Cryptocurrency Market Report
+============================
+
+Total coins analyzed: 5
+Highest priced coin: Bitcoin
+Best 24h performer: Ethereum
+Average price: $14431.35
+
+Detailed Data:
+         id     name  current_price   market_cap  price_change_percentage_24h                  timestamp
+    bitcoin  Bitcoin   69408.000000 1.387178e+12                     -1.57946 2026-02-08T02:00:05.079976
+   ethereum Ethereum    2095.080000 2.528604e+11                      2.15288 2026-02-08T02:00:05.079976
+     tether   Tether       0.999382 1.856013e+11                      0.00855 2026-02-08T02:00:05.079976
+binancecoin      BNB     651.250000 8.880464e+10                     -1.57392 2026-02-08T02:00:05.079976
+     ripple      XRP       1.430000 8.718884e+10                     -1.00567 2026-02-08T02:00:05.079976
